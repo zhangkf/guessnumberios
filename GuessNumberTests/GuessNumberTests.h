@@ -7,7 +7,11 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "GuessNumber.h"
 
 @interface GuessNumberTests : SenTestCase
+{
+    GuessNumber *example;
+}
 
 @end

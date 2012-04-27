@@ -18,6 +18,10 @@
 		49A6B91615451A4D00DFC80A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A6B8FD15451A4C00DFC80A /* Foundation.framework */; };
 		49A6B91E15451A4D00DFC80A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49A6B91C15451A4D00DFC80A /* InfoPlist.strings */; };
 		49A6B92115451A4D00DFC80A /* GuessNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B92015451A4D00DFC80A /* GuessNumberTests.m */; };
+		49A6B92C15451CC700DFC80A /* GuessNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B92B15451CC700DFC80A /* GuessNumber.m */; };
+		49A6B92F154669D700DFC80A /* GameControlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B92E154669D700DFC80A /* GameControlTest.m */; };
+		49A6B93215466B0C00DFC80A /* GameControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B93115466B0C00DFC80A /* GameControl.m */; };
+		49A6B9791549161C00DFC80A /* GuessNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B9781549161C00DFC80A /* GuessNumberViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +39,26 @@
 		49A6B8FB15451A4C00DFC80A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49A6B8FD15451A4C00DFC80A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49A6B8FF15451A4C00DFC80A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		49A6B90315451A4C00DFC80A /* GuessNumber-Info.plist */ = {isa = PBXFileReference; path = "GuessNumber-Info.plist"; sourceTree = "<group>"; };
+		49A6B90315451A4C00DFC80A /* GuessNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessNumber-Info.plist"; sourceTree = "<group>"; };
 		49A6B90515451A4C00DFC80A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49A6B90715451A4C00DFC80A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49A6B90915451A4C00DFC80A /* GuessNumber-Prefix.pch */ = {isa = PBXFileReference; path = "GuessNumber-Prefix.pch"; sourceTree = "<group>"; };
-		49A6B90A15451A4C00DFC80A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		49A6B90915451A4C00DFC80A /* GuessNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessNumber-Prefix.pch"; sourceTree = "<group>"; };
+		49A6B90A15451A4C00DFC80A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49A6B90B15451A4C00DFC80A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49A6B91215451A4D00DFC80A /* GuessNumberTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A6B91315451A4D00DFC80A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		49A6B91B15451A4D00DFC80A /* GuessNumberTests-Info.plist */ = {isa = PBXFileReference; path = "GuessNumberTests-Info.plist"; sourceTree = "<group>"; };
+		49A6B91B15451A4D00DFC80A /* GuessNumberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessNumberTests-Info.plist"; sourceTree = "<group>"; };
 		49A6B91D15451A4D00DFC80A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49A6B91F15451A4D00DFC80A /* GuessNumberTests.h */ = {isa = PBXFileReference; path = GuessNumberTests.h; sourceTree = "<group>"; };
+		49A6B91F15451A4D00DFC80A /* GuessNumberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessNumberTests.h; sourceTree = "<group>"; };
 		49A6B92015451A4D00DFC80A /* GuessNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessNumberTests.m; sourceTree = "<group>"; };
+		49A6B92A15451CC700DFC80A /* GuessNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessNumber.h; sourceTree = "<group>"; };
+		49A6B92B15451CC700DFC80A /* GuessNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessNumber.m; sourceTree = "<group>"; };
+		49A6B92D154669D700DFC80A /* GameControlTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameControlTest.h; sourceTree = "<group>"; };
+		49A6B92E154669D700DFC80A /* GameControlTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameControlTest.m; sourceTree = "<group>"; };
+		49A6B93015466B0C00DFC80A /* GameControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameControl.h; sourceTree = "<group>"; };
+		49A6B93115466B0C00DFC80A /* GameControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameControl.m; sourceTree = "<group>"; };
+		49A6B9771549161C00DFC80A /* GuessNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessNumberViewController.h; sourceTree = "<group>"; };
+		49A6B9781549161C00DFC80A /* GuessNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessNumberViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,12 @@
 				49A6B90A15451A4C00DFC80A /* AppDelegate.h */,
 				49A6B90B15451A4C00DFC80A /* AppDelegate.m */,
 				49A6B90215451A4C00DFC80A /* Supporting Files */,
+				49A6B92A15451CC700DFC80A /* GuessNumber.h */,
+				49A6B92B15451CC700DFC80A /* GuessNumber.m */,
+				49A6B93015466B0C00DFC80A /* GameControl.h */,
+				49A6B93115466B0C00DFC80A /* GameControl.m */,
+				49A6B9771549161C00DFC80A /* GuessNumberViewController.h */,
+				49A6B9781549161C00DFC80A /* GuessNumberViewController.m */,
 			);
 			path = GuessNumber;
 			sourceTree = "<group>";
@@ -130,6 +148,8 @@
 				49A6B91F15451A4D00DFC80A /* GuessNumberTests.h */,
 				49A6B92015451A4D00DFC80A /* GuessNumberTests.m */,
 				49A6B91A15451A4D00DFC80A /* Supporting Files */,
+				49A6B92D154669D700DFC80A /* GameControlTest.h */,
+				49A6B92E154669D700DFC80A /* GameControlTest.m */,
 			);
 			path = GuessNumberTests;
 			sourceTree = "<group>";
@@ -250,6 +270,9 @@
 			files = (
 				49A6B90815451A4C00DFC80A /* main.m in Sources */,
 				49A6B90C15451A4C00DFC80A /* AppDelegate.m in Sources */,
+				49A6B92C15451CC700DFC80A /* GuessNumber.m in Sources */,
+				49A6B93215466B0C00DFC80A /* GameControl.m in Sources */,
+				49A6B9791549161C00DFC80A /* GuessNumberViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A6B92115451A4D00DFC80A /* GuessNumberTests.m in Sources */,
+				49A6B92F154669D700DFC80A /* GameControlTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

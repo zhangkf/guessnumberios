@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GuessNumberViewController.h"
 
 @implementation AppDelegate
 
@@ -23,6 +24,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[[GuessNumberViewController alloc] init] autorelease];
     [self.window makeKeyAndVisible];
     return YES;
 }
